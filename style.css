@@ -1,17 +1,19 @@
-body{
-    margin:0%;
-    padding:0%;
+body {
+    margin: 0%;
+    padding: 0%;
     background-image: linear-gradient(to bottom, #0b0f12, #0b151d, #0a1927, #0a1c32, #0e1f3d, #132242, #172548, #1c284d, #1e2c4f, #203050, #233451, #273852);
-    font-family: montserrat,sans-serif;
+    font-family: montserrat, sans-serif;
 }
-.navcontainer{
-    height: 100px;
-    max-width:100%;
-    padding:0%;
-    margin:0% ;
-    box-sizing:border-box;
-    margin-bottom: 0%;
+
+.navcontainer {
+    height: auto;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
 }
+
 /*
 .logo{
     color:#fff;
@@ -26,159 +28,305 @@ body{
     text-decoration: none;
 }
 */
-.logo{
+.logo {
     position: absolute;
     top: 0px;
     left: 0px;
     height: 70px;
     width: 70px;
 }
-.logo img{
+
+.logo img {
     height: 100%;
     width: 100%;
     padding: 0px;
     float: left;
     margin: 0px;
-    
-    
+
+
 }
-.menu{
+
+.menu {
     float: right;
 }
-.fix{
-    clear:both;
+
+.fix {
+    clear: both;
 }
-.menu ul{
+
+.menu ul {
     margin: 0%;
     padding: 0%;
     display: inline-flex;
 }
-.menu ul li{
-    
-}
+
+.menu ul li {}
+
 .menu ul li a {
     display: block;
-    margin:10% 0%;
+    margin: 10% 0%;
     padding: 10% 20px;
     text-decoration: none;
     font-weight: 700%;
     font-size: 12px;
     color: #FFFFFF;
 }
-.contentcontainer{
+
+.contentcontainer {
     height: 100%;
     position: relative;
-    max-width:100%;
-    margin:90px 30px 30px;
+    max-width: 100%;
+    margin: 90px 30px 30px;
 }
-.person{
-    float:right;
+
+.person {
+    float: right;
     margin-right: 4%;
     width: 469l;
-    top:0;
+    top: 0;
     left: 62%;
     height: 469;
-    
+
 }
-.person img{
+
+.person img {
     border-radius: 160px;
     max-height: 100%;
     max-width: 100%;
 }
-h1{
+
+h1 {
     font-size: 800%;
     font-weight: bold;
-    margin-top:-12%;
+    margin-top: -12%;
     margin-bottom: 1%;
     color: #FFFFFF;
     font-family: 'Archivo Black', sans-serif;
 }
-h2{
-    
+
+.myname {
+    font-size: 30%;
+}
+
+.welcome {
+    font-size: 30%;
+}
+
+h2 {
+
     margin-top: -8%;
     color: white;
-    font-size:250%;
+    font-size: 250%;
     font-family: 'Archivo Black', sans-serif;
 }
-h3{
+
+h3 {
     margin-top: -16%;
-    font-size:700%;
-/*    letter-spacing: 30px;*/
+    font-size: 700%;
+    /*    letter-spacing: 30px;*/
     text-align: center;
     color: white;
     font-family: 'Archivo Black', sans-serif;
 }
 
-.text p{
-    
+.text p {
+
     font-size: 140%;
     font-weight: 100;
     letter-spacing: 0.5px;
     margin: -35% 0px 30px;
-    color:white;
+    color: white;
     font-family: 'Archivo Black', sans-serif;
 }
-.text{
-    
+
+.text {
+
     margin-left: 80px;
     width: 30%;
     height: 469px;
-    float:left;
+    float: left;
     text-align: center;
 }
-.aboutme{
+
+.aboutme {
     display: block;
     height: 100%;
 }
-.aboutme h1{
+
+.aboutme h1 {
     letter-spacing: 20px;
     margin: 0.1%;
     text-align: center;
     font-size: 560%;
     font-family: 'Righteous', cursive;
 }
-.aboutme img{
+
+.aboutme img {
     margin-top: 4%;
     margin-left: 8%;
     width: 30%;
     border-radius: 15%;
-    
+
 }
+
 .aboutme p {
     font-size: 120%;
-    margin: 9%;
+    margin: 10% 7%;
     text-align: center;
     float: right;
     color: white;
     font-family: 'Cabin', sans-serif;
 }
-input[type=button]{
-    border:1px solid #fff;
+
+input[type=button] {
+    border: 1px solid #fff;
     border-radius: 20px;
     background-color: transparent;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 45px;
     letter-spacing: 1px;
     outline: none;
-    transition: transform 80ms ease-in;        
+    transition: transform 80ms ease-in;
 }
 
 /*Contact HTML*/
-.soscmedcontainer{
+.contact-me {
+    font-family: Oswald;
+    letter-spacing: 6;
+
+    margin: 0 auto;
+    font-size: 500%;
+    color: white;
+    text-align: center;
+}
+
+.soscmedcontainer {
     margin: 0 auto;
     text-align: center;
 }
-.line img{
-    width 5%;
-    padding: 2%;
-}
-.wa img{
+
+.line img {
     width: 23%;
     padding: 2%;
 }
-.in img{
+
+.wa img {
+    width: 23%;
+    padding: 2%;
+}
+
+.in img {
     width: 24%;
     padding: 2%;
+}
+
+.ig img {
+    width: 24%;
+    float: left;
+    margin-left: 10%
+}
+
+.fb img {
+    border-radius: 20%;
+    width: 23.5%;
+    float: left;
+    margin-left: 4%
+}
+
+.yt img {
+    width: 24%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 3.5%;
+}
+
+/*Media Quary Index.html*/
+@media only screen and (max-width: 650px) {
+    .text {
+        padding-left: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        height: 269px;
+        /*
+        margin: 0 auto;
+        width: 40%;
+        
+        float: left;
+        
+*/
+    }
+
+
+    h1 {
+        position: relative;
+        width: 100%;
+        font-size: 350%;
+        text-align: center;
+
+    }
+
+    .myname {
+        font-size: 35%;
+    }
+
+    .welcome {
+        font-size: 40%;
+    }
+
+    .contentcontainer {
+
+        height: auto;
+    }
+
+    .person {
+        height: 35%;
+        float: left;
+        width: 100%;
+        margin-left: -8%;
+        margin-bottom: 15%;
+
+    }
+
+    .person img {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .aboutme {
+
+        display: block;
+        height: 100%;
+
+    }
+
+    .aboutme h1 {
+        letter-spacing: 20px;
+        margin-left: -5%;
+        text-align: center;
+        font-size: 240%;
+        font-family: Oswald;
+    }
+
+    .aboutme img {
+        text-align: center;
+        margin-left: 13%;
+        width: 60%;
+        border-radius: 15%;
+
+    }
+    .aboutme p {
+        font-size: 100%;
+        text-align: center;
+        color: white;
+        font-family: Raleway;
+        margin-right: 21%
+    }
 }
