@@ -1,0 +1,184 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-image: linear-gradient(to bottom, #0b0f12, #0b151d, #0a1927, #0a1c32, #0e1f3d, #132242, #172548, #1c284d, #1e2c4f, #203050, #233451, #273852);
+    font-family: montserrat,sans-serif;
+}
+.navcontainer{
+    height: 100px;
+    max-width:100%;
+    padding:0%;
+    margin:0% ;
+    box-sizing:border-box;
+    margin-bottom: 0%;
+}
+/*
+.logo{
+    color:#fff;
+    height:60px;
+    font-size: 36px;
+    line-height:60px;
+    padding:0px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+*/
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 70px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    float: left;
+    margin: 0px;
+    
+    
+}
+.menu{
+    float: right;
+}
+.fix{
+    clear:both;
+}
+.menu ul{
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+}
+.menu ul li{
+    
+}
+.menu ul li a {
+    display: block;
+    margin:10% 0%;
+    padding: 10% 20px;
+    text-decoration: none;
+    font-weight: 700%;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.contentcontainer{
+    height: 100%;
+    position: relative;
+    max-width:100%;
+    margin:90px 30px 30px;
+}
+.person{
+    float:right;
+    margin-right: 4%;
+    width: 469l;
+    top:0;
+    left: 62%;
+    height: 469;
+    
+}
+.person img{
+    border-radius: 160px;
+    max-height: 100%;
+    max-width: 100%;
+}
+h1{
+    font-size: 800%;
+    font-weight: bold;
+    margin-top:-12%;
+    margin-bottom: 1%;
+    color: #FFFFFF;
+    font-family: 'Archivo Black', sans-serif;
+}
+h2{
+    
+    margin-top: -8%;
+    color: white;
+    font-size:250%;
+    font-family: 'Archivo Black', sans-serif;
+}
+h3{
+    margin-top: -16%;
+    font-size:700%;
+/*    letter-spacing: 30px;*/
+    text-align: center;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.text p{
+    
+    font-size: 140%;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin: -35% 0px 30px;
+    color:white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.text{
+    
+    margin-left: 80px;
+    width: 30%;
+    height: 469px;
+    float:left;
+    text-align: center;
+}
+.aboutme{
+    display: block;
+    height: 100%;
+}
+.aboutme h1{
+    letter-spacing: 20px;
+    margin: 0.1%;
+    text-align: center;
+    font-size: 560%;
+    font-family: 'Righteous', cursive;
+}
+.aboutme img{
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 30%;
+    border-radius: 15%;
+    
+}
+.aboutme p {
+    font-size: 120%;
+    margin: 9%;
+    text-align: center;
+    float: right;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+input[type=button]{
+    border:1px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color:#FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    outline: none;
+    transition: transform 80ms ease-in;        
+}
+
+/*Contact HTML*/
+.soscmedcontainer{
+    margin: 0 auto;
+    text-align: center;
+}
+.line img{
+    width 5%;
+    padding: 2%;
+}
+.wa img{
+    width: 23%;
+    padding: 2%;
+}
+.in img{
+    width: 24%;
+    padding: 2%;
+}

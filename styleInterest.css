@@ -1,0 +1,346 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: #0b0f12;
+    font-family: montserrat,sans-serif;
+}
+.navcontainer{
+  
+    max-width:100%;
+    padding:0%;
+    margin:0% ;
+    box-sizing:border-box;
+    margin-bottom: -10%;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 70px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    float: left;
+    margin: 0px;
+    
+    
+}
+.menu{
+    float: right;
+}
+.fix{
+    clear:both;
+}
+.menu ul{
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+}
+.menu ul li{
+    
+}
+.menu ul li a {
+    display: block;
+    margin:10% 0%;
+    padding: 10% 20px;
+    text-decoration: none;
+    font-weight: 700%;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.contentcontainer{
+    position: relative;
+    max-width:100%;
+    margin:90px 30px 30px;
+}
+
+
+.parallaxInterest {
+    /* The image used */
+    background-image: url("forest.jpg");
+  
+    /* Set a specific height */
+    height: 55%;
+  
+    /* Create the parallax scrolling effect */
+    margin-top: 12%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Interest{
+    color: darkgrey;
+    position: absolute; 
+    top:18%; 
+    left: 32%; 
+    font-size: 400%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+    
+.text h1{
+    font-weight: bold;
+    margin:0%;
+    color: #FFFFFF;
+    font-size: 60px;
+    
+}
+.text p{
+    font-size: 20px;
+    font-weight: 20;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    
+    color:rgba(188,188,188,1.00);
+}
+.text{
+    margin-top: 10%;
+    left: 0px;
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35%;
+    margin-left: 2%;
+}
+.text2 h1{
+    
+    margin-right: 60%;
+    font-weight: bold;
+    margin:0%;
+    color: #FFFFFF;
+    font-size: 60px;
+    
+}
+.text2 p{
+    
+    font-size: 20px;
+    font-weight: 20;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color:rgba(188,188,188,1.00);
+}
+.text2{
+   
+    width: 35%;
+    text-align: center;
+    float: right;
+    height: 35%;
+    margin-right: 3%;
+    
+}
+.apex{
+    
+}
+.apex p {
+    text-align: center;
+    color: white;
+    font-size: 500%;
+    font-weight: bold;
+}
+.apex h1{
+    font-size: 60px;
+    color: white;
+}
+.apex-logo {
+    margin-top: -5%;
+    text-align: center;
+} 
+.apex-logo img{
+    width: 20%;
+    
+    
+}
+.apex-logo2{
+    text-align: center;
+}
+.apex-logo2 img{
+    width: 60%;
+    margin-top: -1%;
+}
+.contentApex{
+    
+}
+.contentApex .head{
+/*
+    position: relative;
+    display: flex;
+*/
+    
+}
+.contentApex h1{
+    font-family: Oswald;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    margin: 200px 50px ;
+}
+.contentApex p {
+    text-align: left;
+    font-family: Raleway;
+    z-index: 1;
+    letter-spacing: 3;
+    font-size: 25px;
+    position: absolute;
+    margin: 300px 55px ;
+}
+.contentApex video{
+    width: 100%;
+    opacity: 50%;
+}
+.contentApex h1{
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 500%;
+    margin-top: 13%;
+}
+.skill-content h1{
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+}
+.skill-content p{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-family: Raleway;
+    letter-spacing: 3;
+}
+.skill-content img{
+    width :40%;
+    display: flex;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+.fav-char1{
+    margin-bottom: 5%;
+   background-image: linear-gradient(to top, #0b0f12, #091b2a, #062344, #1a2a5c, #3a2c70, #3a2c70, #3a2c70, #3a2c70, #1a2a5c, #062344, #091b2a, #0b0f12);
+    height: 150%;
+}
+.fav-char1 h1{
+    margin-top: 9%;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 300%;
+}
+.parallax-wraith{
+    
+     /* The image used */
+    background-image: url("wraithbg.png");
+  
+    /* Set a specific height */
+    height: 35%;
+  
+    /* Create the parallax scrolling effect */
+    margin-top: 6%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.wraith{
+    margin-left: 28%;
+    margin-top: 5%;
+    position: absolute; 
+    font-size: 300%;
+    text-align: center;
+}
+.wraith h1{
+    color: darkviolet;
+    letter-spacing: 30;
+    z-index: 0;
+}
+.char-explain h1{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 450%;
+    
+}
+.char-explain p {
+    text-align: left;
+    margin-top: -2%;
+    margin-left: 4%;
+    letter-spacing: 2;
+    font-size: 140%;
+    font-family: Raleway;
+}
+.char-explain img{
+    float: right;
+    width: 25%;
+    margin-top: -25%;
+    margin-right: 3%;
+    border-radius: 5%;
+    
+}
+.fav-char2{
+    
+   background-image: linear-gradient(to top, #0b0f12, #072d37, #004e55, #007164, #009363, #009363, #009363, #009363, #007164, #004e55, #072d37, #0b0f12);
+    height: 150%;
+    margin-top: 10%;
+}
+.parallax-crypto{
+    
+     /* The image used */
+    background-image: url("cryptobg.jpg");
+  
+    /* Set a specific height */
+    height: 45%;
+  
+    /* Create the parallax scrolling effect */
+    margin-top: 5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.crypto{
+    margin-left: 36%;
+    margin-top: 8%;
+    position: absolute; 
+    text-align: center;
+}
+.crypto h1{
+    color: greenyellow;
+    font-size: 500%;
+    letter-spacing: 30;
+    z-index: 0;
+    font-family: Oswald;
+    
+}
+.char-explain2 img{
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 25%;
+    border-radius: 20px;
+    
+    
+}
+.char-explain2 h1{
+    float: right;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 4%;
+    font-size: 450%;
+    
+}
+.char-explain2 p {
+    float: right;
+    text-align: right;
+    margin-top: -40%;
+    margin-right: 4%;
+    letter-spacing: 2;
+    font-size: 140%;
+    font-family: Raleway;
+}
+
+
