@@ -1,0 +1,913 @@
+#indexBody {
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, #0b0f12, #0b151d, #0a1927, #0a1c32, #0e1f3d, #132242, #172548, #1c284d, #1e2c4f, #203050, #233451, #273852);
+    height: auto;
+    font-family: montserrat,sans-serif;
+}
+
+
+.navcontainer {
+    height: auto;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+/*
+.logo{
+    color:#fff;
+    height:60px;
+    font-size: 36px;
+    line-height:60px;
+    padding:0px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+*/
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 70px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    float: left;
+    margin: 0px;
+
+
+}
+
+.menu {
+    float: right;
+}
+
+.fix {
+    clear: both;
+}
+
+.menu ul {
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    display: block;
+    margin: 10% 0%;
+    padding: 10% 20px;
+    text-decoration: none;
+    font-weight: 700%;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.contentcontainer {
+    height: 100%;
+    position: relative;
+    max-width: 100%;
+    margin: 90px 30px 30px;
+}
+
+.person {
+    float: right;
+    margin-right: 4%;
+    width: 469l;
+    top: 0;
+    left: 62%;
+    height: 469;
+
+}
+
+.person img {
+    border-radius: 160px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 800%;
+    font-weight: bold;
+    margin-top: -12%;
+    margin-bottom: 1%;
+    color: #FFFFFF;
+    font-family: Oswald;
+}
+
+.myname {
+    font-size: 30%;
+}
+
+.welcome {
+    font-size: 20%;
+}
+
+
+.text p {
+
+    font-size: 140%;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin: -35% 0px 30px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.text {
+
+    margin-left: 80px;
+    width: 30%;
+    height: 469px;
+    float: left;
+    text-align: center;
+}
+
+.aboutme {
+    display: block;
+    height: 100%;
+}
+
+.aboutme h1 {
+    letter-spacing: 20px;
+    margin: 0.1%;
+    text-align: center;
+    font-size: 560%;
+    font-family: Oswald;
+}
+
+.aboutme img {
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 30%;
+    border-radius: 15%;
+
+}
+
+.aboutme p {
+    font-size: 120%;
+    margin: 10% 7%;
+    text-align: center;
+    float: right;
+    color: white;
+    font-family: Raleway;
+}
+
+input[type=button] {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    outline: none;
+    transition: transform 80ms ease-in;
+}
+
+/*Css interest.html*/
+#interestBody {
+    margin: 0%;
+    padding: 0%;
+    background-color: #0b0f12;
+    font-family: montserrat, sans-serif;
+}
+
+.parallaxInterest {
+    /* The image used */
+    background-image: url("forest.jpg");
+
+    /* Set a specific height */
+    height: 55%;
+
+    /* Create the parallax scrolling effect */
+    margin-top: 4%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Interest {
+    color: darkgrey;
+    position: absolute;
+    top: 33%;
+    left: 34%;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-interest h1 {
+    font-weight: bold;
+    margin: 0%;
+    color: #FFFFFF;
+    font-size: 60px;
+
+}
+
+.text-interest p {
+    font-size: 23px;
+    font-weight: 20;
+    line-height: 20px;
+    letter-spacing: 2;
+    font-family: Raleway;
+    color: rgba(188, 188, 188, 1.00);
+
+}
+
+.text-interest {
+    margin-top: 10%;
+    left: 0px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35%;
+    margin-left: 2%;
+}
+
+.text-interest2 h1 {
+
+    margin-right: 60%;
+    font-weight: bold;
+    margin: 0%;
+    color: #FFFFFF;
+    font-size: 60px;
+
+}
+
+.text-interest2 p {
+
+    font-size: 23px;
+    font-weight: 20;
+    line-height: 20px;
+    letter-spacing: 2;
+    font-family: Raleway;
+    color: rgba(188, 188, 188, 1.00);
+}
+
+.text-interest2 {
+
+    width: 35%;
+    text-align: center;
+    float: right;
+    height: 35%;
+    margin-right: 3%;
+
+}
+
+.apex {}
+
+.apex p {
+    text-align: center;
+    color: white;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.apex h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.apex-logo {
+    margin-top: -5%;
+    text-align: center;
+}
+
+.apex-logo img {
+    width: 20%;
+
+
+}
+
+.apex-logo2 {
+    text-align: center;
+}
+
+.apex-logo2 img {
+    width: 60%;
+    margin-top: -1%;
+}
+
+.contentApex {}
+
+.contentApex .head {
+    /*
+    position: relative;
+    display: flex;
+*/
+
+}
+
+.contentApex h1 {
+    font-family: Oswald;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    margin: 200px 50px;
+}
+
+.contentApex p {
+    text-align: left;
+    font-family: Raleway;
+    z-index: 1;
+    letter-spacing: 3;
+    font-size: 25px;
+    position: absolute;
+    margin: 300px 55px;
+}
+
+.contentApex video {
+    width: 100%;
+    opacity: 50%;
+}
+
+.contentApex h1 {
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 500%;
+    margin-top: 13%;
+}
+
+.skill-content h1 {
+    margin-top: 9%;
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+}
+
+.skill-content p {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-family: Raleway;
+    letter-spacing: 3;
+}
+
+.skill-content img {
+    width: 40%;
+    display: flex;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+
+.fav-char1 {
+    margin-bottom: 5%;
+    background-image: linear-gradient(to top, #0b0f12, #091b2a, #062344, #1a2a5c, #3a2c70, #3a2c70, #3a2c70, #3a2c70, #1a2a5c, #062344, #091b2a, #0b0f12);
+    height: 150%;
+}
+
+.fav-char1 h1 {
+    margin-top: 9%;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 300%;
+}
+
+.parallax-wraith {
+
+    /* The image used */
+    background-image: url("wraithbg.png");
+
+    /* Set a specific height */
+    height: 35%;
+
+    /* Create the parallax scrolling effect */
+    margin-top: 6%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wraith {
+    margin-left: 28%;
+    margin-top: 5%;
+    position: absolute;
+    font-size: 300%;
+    text-align: center;
+}
+
+.wraith h1 {
+    color: darkviolet;
+    letter-spacing: 30;
+    z-index: 0;
+}
+
+.char-explain h1 {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 450%;
+
+}
+
+.char-explain p {
+    text-align: left;
+    margin-top: -2%;
+    margin-left: 4%;
+    letter-spacing: 2;
+    font-size: 140%;
+    font-family: Raleway;
+}
+
+.char-explain img {
+    float: right;
+    width: 25%;
+    margin-top: -25%;
+    margin-right: 3%;
+    border-radius: 5%;
+
+}
+
+.fav-char2 {
+    display: block;
+    background-image: linear-gradient(to top, #0b0f12, #072d37, #004e55, #007164, #009363, #009363, #009363, #009363, #007164, #004e55, #072d37, #0b0f12);
+    height: 150%;
+    margin-top: 10%;
+}
+
+.parallax-crypto {
+
+    /* The image used */
+    background-image: url("cryptobg.jpg");
+
+    /* Set a specific height */
+    height: 45%;
+
+    /* Create the parallax scrolling effect */
+    margin-top: 5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.crypto {
+    margin-left: 36%;
+    margin-top: 8%;
+    position: absolute;
+    text-align: center;
+}
+
+.crypto h1 {
+    color: greenyellow;
+    font-size: 500%;
+    letter-spacing: 30;
+    z-index: 0;
+    font-family: Oswald;
+
+}
+
+.char-explain2 img {
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 25%;
+    border-radius: 20px;
+
+
+}
+
+.char-explain2 h1 {
+    float: right;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 4%;
+    font-size: 450%;
+
+}
+
+.char-explain2 p {
+    float: right;
+    text-align: right;
+    margin-top: -40%;
+    margin-right: 4%;
+    letter-spacing: 2;
+    font-size: 140%;
+    font-family: Raleway;
+}
+
+/*Css project.html*/
+#projectBody {
+    margin:0%;
+    padding:0%;
+    background-color: #0b0f12;
+    font-family: montserrat,sans-serif;
+}
+
+.parallaxProject {
+    /* The image used */
+    background-image: url("library2.jpg");
+  
+    /* Set a specific height */
+    height: 55%;
+  
+    /* Create the parallax scrolling effect */
+    margin-top: 2%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.nav-project {
+    width: 100%;
+   
+}
+.nav-project a{
+    
+    text-decoration: none;
+    font-family: Raleway;
+    padding:10%;
+    margin: 20px;
+     background-color: aliceblue;
+    padding: 5%;
+    border-radius: 20%;
+}
+  .Project{
+    color: darkgrey;
+    position: absolute; 
+    top:30%; 
+    left: 35%; 
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+    
+.textProject h1{
+    
+    margin:0%;
+    color: #FFFFFF;
+    font-size: 60px;
+    
+}
+#projectKanvas{
+    margin-top: 1%;
+    color: white;   
+    text-align: center;
+    
+}
+
+.kanvas{
+    text-align: center;
+}
+.kanvas img{
+    width: 90%;
+    margin-bottom: 2%;
+    
+}
+.kanvas a {
+    font-family: Raleway;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20%;
+    text-align: center;
+    background-color: white;
+    padding: 1%;
+}
+
+.textGat p{
+    font-size: 20px;
+    font-weight: 20;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    
+    color:rgba(188,188,188,1.00);
+}
+.textProject{
+    left: 0px;
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35%;
+    margin-left: 35%;
+}
+#videoProject{
+    margin-top:10%;
+    color: white;
+    text-align: center;
+    
+}
+.videoProject {
+    font-family: Raleway;
+    margin-top: -2%;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+.video{
+    margin-top: 10%;
+   text-align: center;
+   height: 100%;
+}
+.video p {
+    color: white;
+    font-family:Raleway;
+    font-size: 200%;
+}
+.youtube{
+    
+    width: 67%;
+    height: 85%;
+}
+
+/*Gallery Html*/
+#galleryBody{
+    margin:0%;
+    padding:0%;
+    background-color: #0b0f12;
+    font-family: montserrat,sans-serif;
+}
+.parallaxGallery {
+    background-image: url("gallery.jpg");
+  
+    /* Set a specific height */
+    height: 55%;
+  
+    /* Create the parallax scrolling effect */
+    margin-top: 3%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .PGallery{
+    color: black;
+    position: absolute; 
+    top:30%; 
+    left: 36%; 
+    font-size: 100%;
+    font-family: Oswald;
+  }
+    
+.textGallery h1{
+    
+    font-weight: bold;
+    margin:0%;
+    color: #FFFFFF;
+    font-size: 60px;
+    
+}
+.textGallery p{
+    font-size: 20px;
+    font-weight: 20;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    
+    color:rgba(188,188,188,1.00);
+}
+.textGallery {
+    
+    left: 0px;
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20%;
+    margin-left: 35%;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+    color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*Contact HTML*/
+#bodyContact {
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, #0b0f12, #0b151d, #0a1927, #0a1c32, #0e1f3d, #132242, #172548, #1c284d, #1e2c4f, #203050, #233451, #273852);
+    height: auto;
+    font-family: montserrat,sans-serif;
+}
+.contact-me {
+    font-family: Oswald;
+    letter-spacing: 6;
+
+    margin: 0 auto;
+    font-size: 500%;
+    color: white;
+    text-align: center;
+}
+
+.soscmedcontainer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.line img {
+    width: 23%;
+    padding: 2%;
+}
+
+.wa img {
+    width: 23%;
+    padding: 2%;
+}
+
+.in img {
+    width: 24%;
+    padding: 2%;
+}
+
+.ig img {
+    width: 20%;
+    float: left;
+    margin-left: 16%
+}
+
+.fb img {
+    border-radius: 20%;
+    width: 18%;
+    float: left;
+    margin-left: 4%
+}
+
+.yt img {
+    width: 23%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+
+/*Media Quary Index.html*/
+@media only screen and (min-width: 800px) {
+    .myname {
+        font-size: 40%;
+    }
+
+    .welcome {
+        font-size: 40%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .text {
+        padding-left: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        height: 369px;
+        /*
+        margin: 0 auto;
+        width: 40%;
+        
+        float: left;
+        
+*/
+    }
+
+
+    h1 {
+        position: relative;
+        width: 100%;
+        font-size: 350%;
+        text-align: center;
+
+    }
+
+    .myname {
+        font-size: 35%;
+    }
+
+    .welcome {
+        font-size: 50%;
+    }
+
+    .contentcontainer {
+
+        height: auto;
+    }
+
+    .person {
+        height: 35%;
+        float: left;
+        width: 100%;
+        margin-left: -8%;
+        margin-bottom: 15%;
+
+    }
+
+    .person img {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .aboutme {
+
+        display: block;
+        height: 100%;
+
+    }
+
+    .aboutme h1 {
+        letter-spacing: 20px;
+        margin-left: -5%;
+        text-align: center;
+        font-size: 240%;
+        font-family: Oswald;
+    }
+
+    .aboutme img {
+        text-align: center;
+        margin-left: 13%;
+        width: 60%;
+        border-radius: 15%;
+
+    }
+
+    .aboutme p {
+        font-size: 100%;
+        text-align: center;
+        color: white;
+        font-family: Raleway;
+        margin-right: 21%
+    }
+
+    .Interest {
+        color: darkgrey;
+        position: absolute;
+        top: 27%;
+        left: 19%;
+        font-size: 100%;
+        font-family: Oswald;
+    }
+
+    .Interest h1 {
+        font-size: 1200%;
+    }
+}
+
