@@ -2,7 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-image: linear-gradient(to bottom, #0b0f12, #0b151d, #0a1927, #0a1c32, #0e1f3d, #132242, #172548, #1c284d, #1e2c4f, #203050, #233451, #273852);
-    font-family: montserrat, sans-serif;
+    font-family: Oswald;
 }
 
 .navcontainer {
@@ -101,7 +101,7 @@ h1 {
     margin-top: -12%;
     margin-bottom: 1%;
     color: #FFFFFF;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: Oswald;
 }
 
 .myname {
@@ -109,25 +109,9 @@ h1 {
 }
 
 .welcome {
-    font-size: 30%;
+    font-size: 40%;
 }
 
-h2 {
-
-    margin-top: -8%;
-    color: white;
-    font-size: 250%;
-    font-family: 'Archivo Black', sans-serif;
-}
-
-h3 {
-    margin-top: -16%;
-    font-size: 700%;
-    /*    letter-spacing: 30px;*/
-    text-align: center;
-    color: white;
-    font-family: 'Archivo Black', sans-serif;
-}
 
 .text p {
 
@@ -158,7 +142,7 @@ h3 {
     margin: 0.1%;
     text-align: center;
     font-size: 560%;
-    font-family: 'Righteous', cursive;
+    font-family: Oswald;
 }
 
 .aboutme img {
@@ -175,7 +159,7 @@ h3 {
     text-align: center;
     float: right;
     color: white;
-    font-family: 'Cabin', sans-serif;
+    font-family: Raleway;
 }
 
 input[type=button] {
@@ -251,7 +235,7 @@ input[type=button] {
         margin-right: auto;
         width: 50%;
         text-align: center;
-        height: 269px;
+        height: 369px;
         /*
         margin: 0 auto;
         width: 40%;
@@ -275,7 +259,7 @@ input[type=button] {
     }
 
     .welcome {
-        font-size: 40%;
+        font-size: 45%;
     }
 
     .contentcontainer {
