@@ -56,7 +56,7 @@ body{
 }
 
 
-.parallaxInterest {
+.parallaxProject {
     /* The image used */
     background-image: url("library2.jpg");
   
@@ -125,7 +125,7 @@ body{
     padding: 1%;
 }
 
-.text p{
+.textProject p{
     font-size: 20px;
     font-weight: 20;
     line-height: 20px;
@@ -133,7 +133,7 @@ body{
     
     color:rgba(188,188,188,1.00);
 }
-.text{
+.textProject{
     left: 0px;
     width: 30%;
     display: flex;

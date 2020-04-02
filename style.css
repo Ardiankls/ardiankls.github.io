@@ -109,7 +109,7 @@ h1 {
 }
 
 .welcome {
-    font-size: 40%;
+    font-size: 20%;
 }
 
 
@@ -227,6 +227,15 @@ input[type=button] {
 }
 
 /*Media Quary Index.html*/
+@media only screen and (min-width: 800px) {
+    .myname {
+    font-size: 40%;
+}
+    .welcome {
+        font-size: 40%;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .text {
         padding-left: 18%;
@@ -259,7 +268,7 @@ input[type=button] {
     }
 
     .welcome {
-        font-size: 45%;
+        font-size: 50%;
     }
 
     .contentcontainer {
@@ -306,6 +315,7 @@ input[type=button] {
         border-radius: 15%;
 
     }
+
     .aboutme p {
         font-size: 100%;
         text-align: center;
