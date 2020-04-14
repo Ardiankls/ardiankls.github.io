@@ -451,7 +451,7 @@ input[type=button] {
     background-image: url("cryptobg.jpg");
 
     /* Set a specific height */
-    height: 45%;
+    height: 35%;
 
     /* Create the parallax scrolling effect */
     margin-top: 5%;
@@ -471,7 +471,7 @@ input[type=button] {
 
 .crypto h1 {
     color: greenyellow;
-    font-size: 500%;
+    
     letter-spacing: 30;
     z-index: 0;
     font-family: Oswald;
@@ -493,16 +493,20 @@ input[type=button] {
     margin-top: 5%;
     margin-right: 4%;
     font-size: 450%;
+    
+    
 
 }
 
 .char-explain2 p {
+ 
     float: right;
     text-align: right;
-    margin-top: -40%;
+    margin-top: -38%;
     margin-right: 4%;
     letter-spacing: 2;
     font-size: 140%;
+    width: 60%;
     font-family: Raleway;
 }
 
